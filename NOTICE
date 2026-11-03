@@ -1,0 +1,21 @@
+Blos website
+Copyright 2026 Blos contributors
+
+This product adapts design, layout, and visual assets from the Olas marketing
+website:
+
+  https://github.com/valory-xyz/olas-website
+  Copyright Valory AG and contributors
+  Licensed under the Apache License, Version 2.0
+
+Modifications:
+  - Rebranded the company name from Olas to Blos and replaced the mark
+    and wordmark.
+  - Rebuilt the public pages (home, about, blog, docs, stack, Agents
+    Unleashed, and supporting pages) as a new Next.js application.
+  - Removed production metrics infrastructure, CMS, and wallet integrations.
+  - Rewrote journal and documentation copy for the Blos brand.
+
+Apache License 2.0 does not grant trademark rights. Olas, Autonolas, Valory,
+Pearl, and third-party names remain the property of their owners. Blos is not
+affiliated with those projects.
