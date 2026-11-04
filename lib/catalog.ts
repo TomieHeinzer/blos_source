@@ -91,7 +91,7 @@ export const economies: CatalogItem[] = [
     title: "Predict",
     description: "Agents creating, researching, and trading on prediction markets.",
     image: "/images/agents/predict.png",
-    gradient: "rgba(198, 83, 42, 0.16)",
+    gradient: "rgba(212, 132, 58, 0.16)",
     kind: "Economy",
   },
   {
@@ -145,10 +145,10 @@ export const emissionYears = [
 ];
 
 export const supplySlices = [
-  { label: "Circulating supply", value: 299498392, color: "#c6532a" },
-  { label: "DAO treasury", value: 74752654, color: "#e7b8a0" },
-  { label: "Core contributor", value: 52736093, color: "#9a3e1d" },
-  { label: "veBLOS (vote escrow)", value: 46721057, color: "#f3d7c6" },
+  { label: "Circulating supply", value: 299498392, color: "#d4843a" },
+  { label: "DAO treasury", value: 74752654, color: "#f0c49a" },
+  { label: "Core contributor", value: 52736093, color: "#a85c22" },
+  { label: "veBLOS (vote escrow)", value: 46721057, color: "#f6d7b4" },
 ];
 
 export const networks = [

@@ -18,7 +18,7 @@ type Application = {
 };
 
 const fieldClass =
-  "mt-1 w-full rounded-lg border border-[#e4ddd2] bg-white px-3 py-2 text-sm text-[#1c1917] outline-none placeholder:text-[#8a8175] focus:border-[#c6532a]";
+  "mt-1 w-full rounded-lg border border-[#ead9c2] bg-white px-3 py-2 text-sm text-[#1c1917] outline-none placeholder:text-[#8a8175] focus:border-[#d4843a]";
 
 export function CareersBoard() {
   const [team, setTeam] = useState<(typeof teams)[number]>("All");
@@ -91,7 +91,7 @@ export function CareersBoard() {
               aria-selected={team === item}
               onClick={() => chooseTeam(item)}
               className={`rounded-full px-4 py-1.5 text-sm ${
-                team === item ? "bg-[#1c1917] text-[#f4f0e8]" : "bg-[#efeae2] text-[#3f3832]"
+                team === item ? "bg-[#1c1917] text-[#f8f1e4]" : "bg-[#f3e6d2] text-[#3f3832]"
               }`}
             >
               {item}

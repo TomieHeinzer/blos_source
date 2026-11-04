@@ -4,8 +4,8 @@ import { cn } from "@/lib/utils";
 
 const tones = {
   primary: {
-    box: "bg-[#c6532a14] text-[#9a3e1d]",
-    corner: "border-[#e7b8a0]",
+    box: "bg-[#d4843a14] text-[#a85c22]",
+    corner: "border-[#f0c49a]",
   },
   white: {
     box: "bg-white/10 text-white",

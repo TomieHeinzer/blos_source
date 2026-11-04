@@ -32,50 +32,50 @@ html {
 }
 
 body {
-  background-color: #f4f0e8;
-  color: #1c1917;
+  background-color: #f8f1e4;
+  color: #2a221c;
 }
 
 .bg-purple-600 {
-  background-color: #c6532a;
+  background-color: #d4843a;
 }
 .hover\:bg-purple-800:hover {
-  background-color: #9a3e1d;
+  background-color: #a85c22;
 }
 .bg-purple-50,
 .hover\:bg-purple-950:hover {
-  background-color: #f8efe8;
+  background-color: #f8ead8;
 }
 .bg-purple-600\/20 {
-  background-color: rgba(198, 83, 42, 0.14);
+  background-color: rgba(212, 132, 58, 0.14);
 }
 .text-purple-700,
 .text-purple-800,
 .hover\:text-purple-800:hover,
 .hover\:text-purple-200:hover {
-  color: #9a3e1d;
+  color: #a85c22;
 }
 .text-purple-300,
 .text-purple-200 {
-  color: #c6532a;
+  color: #d4843a;
 }
 .text-purple-900 {
-  color: #6b2c14;
+  color: #7a4018;
 }
 .border-purple-200,
 .border-purple-300,
 .border-purple-400 {
-  border-color: #e7c3b2;
+  border-color: #efc9a4;
 }
 .border-purple-400\/40,
 .border-purple-400\/50 {
-  border-color: rgba(198, 83, 42, 0.45);
+  border-color: rgba(212, 132, 58, 0.45);
 }
 .from-purple-50 {
-  --tw-gradient-from: #f8efe8 var(--tw-gradient-from-position);
+  --tw-gradient-from: #f8ead8 var(--tw-gradient-from-position);
 }
 .focus\:border-purple-400:focus {
-  border-color: #c6532a;
+  border-color: #d4843a;
 }
 
 .activity-bg {
@@ -112,24 +112,24 @@ body {
 .emerald-grid::after {
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at center, rgba(244, 240, 232, 0) 42%, #f4f0e8 100%);
+  background: radial-gradient(ellipse at center, rgba(244, 240, 232, 0) 42%, #f8f1e4 100%);
   content: "";
 }
 
 .metric-card {
   position: relative;
   border-radius: 18px;
-  border: 1px solid #e4ddd2;
+  border: 1px solid #ead9c2;
   background: #fffcf8;
   box-shadow: 0 16px 40px rgba(28, 25, 23, 0.06);
 }
 
 .agent-economy-card {
   border-radius: 18px;
-  border: 1px solid #e4ddd2;
+  border: 1px solid #ead9c2;
   background: radial-gradient(
     ellipse 585px 263px at top center,
-    var(--gradient-color, rgba(198, 83, 42, 0.16)) 0%,
+    var(--gradient-color, rgba(212, 132, 58, 0.16)) 0%,
     #fffcf8 70%
   );
   box-shadow: 0 16px 40px rgba(28, 25, 23, 0.05);
@@ -138,6 +138,6 @@ body {
 .photo-frame {
   overflow: hidden;
   border-radius: 18px;
-  border: 1px solid #e4ddd2;
+  border: 1px solid #ead9c2;
   background: #fffcf8;
 }

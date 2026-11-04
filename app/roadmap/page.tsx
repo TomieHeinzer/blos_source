@@ -137,7 +137,7 @@ export default function RoadmapPage() {
                       {row.done && row.emerald ? <CheckCheck className="mr-2 inline" size={16} /> : null}
                       {row.emerald}
                     </td>
-                    <td className="border border-slate-200 p-3 text-[#9a3e1d]">
+                    <td className="border border-slate-200 p-3 text-[#a85c22]">
                       {row.done && row.market ? <CheckCheck className="mr-2 inline" size={16} /> : null}
                       {row.market}
                     </td>

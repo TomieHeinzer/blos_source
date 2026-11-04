@@ -41,7 +41,7 @@ export default function AgentsUnleashedPage() {
   const rows = [sponsors.largeIcons, sponsors.mediumIcons, sponsors.smallIcons];
   return (
     <>
-      <section className="border-y bg-[#f8efe8]">
+      <section className="border-y bg-[#f8ead8]">
         <div className="mx-auto flex max-w-screen-xl flex-col items-center gap-10 px-6 py-12 lg:flex-row lg:justify-between lg:px-16">
           <div className="max-w-md">
             <Image
@@ -119,7 +119,7 @@ export default function AgentsUnleashedPage() {
             "Serious venues, good food, and — if the night goes well — humans unleashed: the afterparty.",
           ].map((item, index) => (
             <div key={item} className="flex overflow-hidden rounded-xl border border-purple-200">
-              <div className="flex w-20 shrink-0 items-center justify-center bg-[#1c1917] text-5xl font-bold text-[#f4f0e8]">
+              <div className="flex w-20 shrink-0 items-center justify-center bg-[#1c1917] text-5xl font-bold text-[#f8f1e4]">
                 {index + 1}
               </div>
               <p className="my-auto px-4 py-5">{item}</p>
@@ -139,12 +139,12 @@ export default function AgentsUnleashedPage() {
             <article
               key={event.title}
               className={`flex flex-col gap-4 rounded-xl border p-4 shadow-sm md:flex-row md:justify-between ${
-                event.upcoming ? "border-[#e7c3b2] bg-[#f8efe8]" : "border-slate-200 bg-white"
+                event.upcoming ? "border-[#efc9a4] bg-[#f8ead8]" : "border-slate-200 bg-white"
               }`}
             >
               <div>
                 {event.upcoming && (
-                  <span className="mb-3 inline-flex rounded-full bg-[#c6532a] px-2 py-1 text-xs font-medium text-white">
+                  <span className="mb-3 inline-flex rounded-full bg-[#d4843a] px-2 py-1 text-xs font-medium text-white">
                     Upcoming
                   </span>
                 )}

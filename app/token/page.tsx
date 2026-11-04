@@ -31,15 +31,15 @@ function Pie() {
 }
 
 const usage = [
-  { label: "Operators", pct: 75, color: "#c6532a" },
-  { label: "Bonders", pct: 25, color: "#e7b8a0" },
-  { label: "Builders", pct: 0, color: "#f3d7c6" },
+  { label: "Operators", pct: 75, color: "#d4843a" },
+  { label: "Bonders", pct: 25, color: "#f0c49a" },
+  { label: "Builders", pct: 0, color: "#f6d7b4" },
 ];
 
 export default function TokenPage() {
   return (
     <>
-      <section className="border-b border-[#e4ddd2] bg-[#f8efe8] px-4 py-16 lg:px-12">
+      <section className="border-b border-[#ead9c2] bg-[#f8ead8] px-4 py-16 lg:px-12">
         <div className="mx-auto grid max-w-screen-xl items-center gap-10 lg:grid-cols-2">
           <div>
             <p className="text-sm font-semibold tracking-wide text-slate-500">BLOS TOKEN</p>
@@ -223,7 +223,7 @@ export default function TokenPage() {
         </div>
       </section>
 
-      <section id="token-details" className="bg-[#f8efe8] px-4 py-16">
+      <section id="token-details" className="bg-[#f8ead8] px-4 py-16">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-center text-3xl font-bold">Token details</h2>
           <p className="mt-3 text-center text-sm text-slate-500">

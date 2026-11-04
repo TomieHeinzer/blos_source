@@ -13,7 +13,7 @@ export function SiteHeader() {
   const [more, setMore] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-[#e4ddd2] bg-[#f4f0e8]/90 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-[#ead9c2] bg-[#f8f1e4]/90 backdrop-blur-xl">
       <nav className="mx-auto flex max-w-screen-xl items-center gap-6 px-4 py-3 md:px-6">
         <Link href="/" className="shrink-0" aria-label="Blos home">
           <Logo />
@@ -22,25 +22,25 @@ export function SiteHeader() {
         <div className="hidden items-center gap-1 md:flex">
           <Link
             href="/about"
-            className="rounded-md px-3 py-2 text-sm font-medium text-[#1c1917] hover:bg-[#efeae2]"
+            className="rounded-md px-3 py-2 text-sm font-medium text-[#2a221c] hover:bg-[#f3e6d2]"
           >
             About
           </Link>
           <Link
-            href="/team"
-            className="rounded-md px-3 py-2 text-sm font-medium text-[#1c1917] hover:bg-[#efeae2]"
+            href="/team#team"
+            className="rounded-md px-3 py-2 text-sm font-medium text-[#2a221c] hover:bg-[#f3e6d2]"
           >
             Team
           </Link>
           <Link
             href="/careers"
-            className="rounded-md px-3 py-2 text-sm font-medium text-[#1c1917] hover:bg-[#efeae2]"
+            className="rounded-md px-3 py-2 text-sm font-medium text-[#2a221c] hover:bg-[#f3e6d2]"
           >
             Careers
           </Link>
           <Link
             href="/blog"
-            className="rounded-md px-3 py-2 text-sm font-medium text-[#1c1917] hover:bg-[#efeae2]"
+            className="rounded-md px-3 py-2 text-sm font-medium text-[#2a221c] hover:bg-[#f3e6d2]"
           >
             Blog
           </Link>
@@ -50,7 +50,7 @@ export function SiteHeader() {
             onMouseLeave={() => setMore(false)}
           >
             <button
-              className="rounded-md px-3 py-2 text-sm font-medium text-[#1c1917] hover:bg-[#efeae2]"
+              className="rounded-md px-3 py-2 text-sm font-medium text-[#2a221c] hover:bg-[#f3e6d2]"
               aria-expanded={more}
             >
               More resources
@@ -96,7 +96,7 @@ export function SiteHeader() {
             <Link href="/about" className="rounded-md px-2 py-2" onClick={() => setOpen(false)}>
               About
             </Link>
-            <Link href="/team" className="rounded-md px-2 py-2" onClick={() => setOpen(false)}>
+            <Link href="/team#team" className="rounded-md px-2 py-2" onClick={() => setOpen(false)}>
               Team
             </Link>
             <Link href="/careers" className="rounded-md px-2 py-2" onClick={() => setOpen(false)}>

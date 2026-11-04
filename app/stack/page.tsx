@@ -36,7 +36,7 @@ const parts = [
 export default function StackPage() {
   return (
     <>
-      <section className="border-b border-[#e4ddd2] bg-[#f8efe8] px-4 py-20 lg:py-28">
+      <section className="border-b border-[#ead9c2] bg-[#f8ead8] px-4 py-20 lg:py-28">
         <h1 className="text-center text-4xl font-extrabold tracking-tight md:text-6xl">Blos Stack</h1>
       </section>
       <section className="border-y px-4 py-16">

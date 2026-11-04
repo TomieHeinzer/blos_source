@@ -17,7 +17,7 @@ export default function PredictModelPage() {
     <>
       <section
         className="border-b px-6 py-12 lg:px-12"
-        style={{ background: "linear-gradient(180deg, #f8efe8 0%, #f4f0e8 100%)" }}
+        style={{ background: "linear-gradient(180deg, #f8ead8 0%, #f8f1e4 100%)" }}
       >
         <div className="mx-auto grid max-w-screen-xl items-center gap-10 lg:grid-cols-2">
           <div>

@@ -315,19 +315,19 @@ export const team: TeamMember[] = [
   {
     name: "David Minarsch",
     role: "Co-founder, CEO",
-    bio: "He led the group that built the first framework for multi-agent systems on distributed ledgers. He came through Entrepreneur First and holds a PhD in applied game theory from Cambridge.",
+    bio: "He led the team that built the first framework for multi-agent systems in the distributed-ledger space. He has founding experience through Entrepreneur First and a PhD in applied game theory from the University of Cambridge.",
     image: "/images/team/david-minarsch.jpg",
   },
   {
     name: "David Galindo",
     role: "Co-founder, CTO",
-    bio: "A cryptographer. He was an associate professor of computer security at the University of Birmingham, and holds the record for votes cast in a live digital ballot.",
+    bio: "A cryptographer. He served as an associate professor of computer security at the University of Birmingham and holds the record for the number of votes cast in a live digital ballot.",
     image: "/images/team/david-galindo.jpg",
   },
   {
     name: "Gemma",
     role: "COO",
-    bio: "A founder who has started and advised companies and charities since 2015, picked for Jumpstart’s top slice of early-career people in the UK.",
+    bio: "A founder who has been starting and advising companies and charities since 2015. She was selected for Jumpstart’s top 1% of early-career people in the UK.",
     image: "/images/team/gemma.jpg",
   },
   {
@@ -388,12 +388,12 @@ export const team: TeamMember[] = [
 ];
 
 export const investors = [
-  "true ventures",
-  "Signature Ventures",
-  "semantic",
-  "PrimeBlock Ventures",
-  "Proof Group",
-  "atka",
+  { name: "true ventures", image: "/images/investors/true-ventures.svg" },
+  { name: "Signature Ventures", image: "/images/investors/signature-ventures.svg" },
+  { name: "semantic", image: "/images/investors/semantic.svg" },
+  { name: "PrimeBlock Ventures", image: "/images/investors/primeblock.svg" },
+  { name: "Proof Group", image: "/images/investors/proof-group.svg" },
+  { name: "atka", image: "/images/investors/atka.svg" },
 ];
 
 export const founders = [

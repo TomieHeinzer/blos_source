@@ -45,7 +45,7 @@ const columns = [
     title: "More",
     links: [
       { title: "About", href: "/about" },
-      { title: "Team", href: "/team" },
+      { title: "Team", href: "/team#team" },
       { title: "Careers", href: "/careers" },
       { title: "Tokenomics", href: "/token" },
       { title: "Disclaimer", href: "/disclaimer" },

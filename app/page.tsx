@@ -60,7 +60,7 @@ export default function HomePage() {
               <polyline
                 points="2,2 12,11 22,2"
                 fill="none"
-                stroke="#f4f0e8"
+                stroke="#f8f1e4"
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -75,7 +75,7 @@ export default function HomePage() {
               <polyline
                 points="2,2 12,11 22,2"
                 fill="none"
-                stroke="#f4f0e8"
+                stroke="#f8f1e4"
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"

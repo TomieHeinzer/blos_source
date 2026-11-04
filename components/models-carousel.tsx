@@ -12,7 +12,7 @@ const slides = [
     description: "A model fine-tuned for forecasting.",
     image: "/images/agents/predict.png",
     href: "/models/blos-predict-r1-14b",
-    color: "rgba(198, 83, 42, 0.15)",
+    color: "rgba(212, 132, 58, 0.15)",
   },
   { key: "soon-1", soon: true, color: "rgba(148, 163, 184, 0.25)" },
   { key: "soon-2", soon: true, color: "rgba(148, 163, 184, 0.25)" },

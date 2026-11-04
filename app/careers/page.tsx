@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 
 import { CareersBoard } from "@/components/careers-board";
 
@@ -23,16 +22,13 @@ const facts = [
 export default function CareersPage() {
   return (
     <>
-      <section className="border-b border-[#e4ddd2] bg-[#f8efe8] px-4 py-16 lg:px-12 lg:py-24">
+      <section className="border-b border-[#ead9c2] bg-[#f8ead8] px-4 py-16 lg:px-12 lg:py-24">
         <div className="mx-auto max-w-3xl">
           <p className="text-sm font-semibold tracking-wide text-purple-300">Blos</p>
           <h1 className="mt-3 text-4xl font-extrabold tracking-tight md:text-5xl">Careers</h1>
           <p className="mt-4 max-w-2xl text-lg text-slate-600">
             Blockchain seats on the protocol and the bazaar. AI seats on the models and the agent runtime. All remote.
           </p>
-          <Link href="/team" className="mt-6 inline-block text-sm text-purple-300 underline-offset-2 hover:underline">
-            See the team
-          </Link>
         </div>
       </section>
 

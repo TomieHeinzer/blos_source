@@ -13,9 +13,10 @@ const documents = [
   },
   {
     title: "Whitepaper",
-    href: "/docs/stack",
+    href: "/documents/blos-whitepaper.pdf",
     image: "/images/human/desk-notes.jpg",
     blurb: "How registries, agents, and economies fit together.",
+    file: true,
   },
   {
     title: "Tokenomics",
@@ -43,6 +44,7 @@ export default function WhitepaperPage() {
           <Link
             key={doc.title}
             href={doc.href}
+            {...("file" in doc ? { target: "_blank", rel: "noreferrer" } : {})}
             className="flex h-full flex-col items-center rounded-lg border border-gray-200 p-4 text-center shadow-sm transition-shadow hover:shadow-md"
           >
             <Image

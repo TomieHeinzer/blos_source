@@ -59,7 +59,7 @@ function formatHeadline(metric: MetricKey, days: { value: number }[]) {
   return headline.toLocaleString("en-US");
 }
 
-const PURPLE = ["#f8efe8", "#f3d7c6", "#e7b8a0", "#d4896a", "#c6532a", "#9a3e1d", "#6b2c14"];
+const PURPLE = ["#f8ead8", "#f6d7b4", "#f0c49a", "#e09a62", "#d4843a", "#a85c22", "#7a4018"];
 
 export function EconomyExplorer({ initialEconomy }: { initialEconomy?: string }) {
   const start = economies.some((item) => item.key === initialEconomy) ? initialEconomy! : "predict";
@@ -87,7 +87,7 @@ export function EconomyExplorer({ initialEconomy }: { initialEconomy?: string })
               aria-selected={economy === item.key}
               onClick={() => setEconomy(item.key)}
               className={`flex min-h-11 flex-1 items-center justify-center gap-2 rounded-lg px-2 py-1.5 text-sm sm:px-8 ${
-                economy === item.key ? "bg-[#1c1917] text-[#f4f0e8]" : "text-[#6b645c]"
+                economy === item.key ? "bg-[#1c1917] text-[#f8f1e4]" : "text-[#6b645c]"
               }`}
             >
               <Image src={item.icon} alt="" width={28} height={28} className="size-6 rounded-md object-cover" />
@@ -100,7 +100,7 @@ export function EconomyExplorer({ initialEconomy }: { initialEconomy?: string })
             <button
               key={value}
               onClick={() => setYear(value)}
-              className={`rounded-full px-4 py-1.5 text-sm ${year === value ? "bg-[#1c1917] text-[#f4f0e8]" : "bg-[#efeae2] text-[#3f3832]"}`}
+              className={`rounded-full px-4 py-1.5 text-sm ${year === value ? "bg-[#1c1917] text-[#f8f1e4]" : "bg-[#f3e6d2] text-[#3f3832]"}`}
             >
               {value}
             </button>
