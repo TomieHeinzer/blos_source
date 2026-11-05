@@ -200,18 +200,15 @@ export default function TokenPage() {
           </ul>
           <div className="grid gap-4">
             {[
-              ["/images/human/workshop-hands.jpg", "Builder rewards", "Pay builders in proportion to useful code. The protocol receives the agents.", "/docs/build"],
-              ["/images/human/notebook.jpg", "Bonding emissions", "Bonders permanently provide liquidity and receive BLOS. The protocol owns the liquidity.", "/docs/bond"],
-              ["/images/human/team-table.jpg", "Staking emissions", "Operators run agents in economies defined by launchers and get paid for activity.", "/staking"],
-            ].map(([image, title, copy, href]) => (
+              ["/images/human/workshop-hands.jpg", "Builder rewards", "Pay builders in proportion to useful code. The protocol receives the agents."],
+              ["/images/human/notebook.jpg", "Bonding emissions", "Bonders permanently provide liquidity and receive BLOS. The protocol owns the liquidity."],
+              ["/images/human/team-table.jpg", "Staking emissions", "Operators run agents in economies defined by launchers and get paid for activity."],
+            ].map(([image, title, copy]) => (
               <article key={title} className="flex gap-4 rounded-xl border p-4">
                 <Image src={image} alt="" width={72} height={72} className="h-16 w-16 object-contain" />
                 <div>
                   <h3 className="font-semibold">{title}</h3>
                   <p className="text-sm text-slate-600">{copy}</p>
-                  <Link href={href} className="text-sm text-purple-700">
-                    Learn more
-                  </Link>
                 </div>
               </article>
             ))}

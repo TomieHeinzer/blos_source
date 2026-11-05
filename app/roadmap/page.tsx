@@ -9,23 +9,23 @@ export const metadata: Metadata = { title: "Roadmap" };
 
 type RoadmapRow =
   | { kind: "section"; label: string }
-  | { kind: "row"; emerald: string; market: string; done?: boolean };
+  | { kind: "row"; emerald: string; blos?: string; market: string; done?: boolean };
 
 const rows: RoadmapRow[] = [
     { kind: "section", label: "Now" },
-    { kind: "row", emerald: "AI Agent Ownership", market: "A2A Collaboration", done: true },
-    { kind: "row", emerald: "Simplified UX", market: "Monetize Your Agent", done: true },
-    { kind: "row", emerald: "Human-like Utility", market: "x402", done: true },
-    { kind: "row", emerald: "Web2 UX", market: "Simplified Onboarding", done: true },
-    { kind: "row", emerald: "More Agents", market: "Seamless Data Storage", done: true },
-    { kind: "row", emerald: "Multiple AI Agents", market: "ERC-8004", done: true },
-    { kind: "row", emerald: "Open-source", market: "Hire Mech Agents", done: true },
-    { kind: "row", emerald: "No-code Experience", market: "", done: true },
+    { kind: "row", emerald: "AI Agent Ownership", blos: "Development of token", market: "A2A Collaboration", done: true },
+    { kind: "row", emerald: "Simplified UX", blos: "Supply and emissions", market: "Monetize Your Agent", done: true },
+    { kind: "row", emerald: "Human-like Utility", blos: "Operator staking", market: "x402", done: true },
+    { kind: "row", emerald: "Web2 UX", blos: "veBLOS governance", market: "Simplified Onboarding", done: true },
+    { kind: "row", emerald: "More Agents", blos: "Treasury liquidity", market: "Seamless Data Storage", done: true },
+    { kind: "row", emerald: "Multiple AI Agents", blos: "Multi-chain token", market: "ERC-8004", done: true },
+    { kind: "row", emerald: "Open-source", blos: "Holder distribution", market: "Hire Mech Agents", done: true },
+    { kind: "row", emerald: "No-code Experience", blos: "Burn switch", market: "", done: true },
     { kind: "section", label: "Short-term" },
     { kind: "row", emerald: "Even More Agents", market: "Dynamic Fees" },
     { kind: "row", emerald: "State-of-the-art UX", market: "Native x402" },
     { kind: "section", label: "Mid-term" },
-    { kind: "row", emerald: "Cutting-edge Utility", market: "Access any service with one signature" },
+    { kind: "row", emerald: "Cutting-edge Utility", blos: "Intelligence smart contract", market: "Access any service with one signature" },
     { kind: "row", emerald: "", market: "MCP" },
   ];
 
@@ -120,6 +120,7 @@ export default function RoadmapPage() {
             <thead className="bg-slate-100 text-base">
               <tr>
                 <th className="border border-slate-200 p-3 font-medium">Emerald</th>
+                <th className="border border-slate-200 p-3 font-medium">Blos</th>
                 <th className="border border-slate-200 p-3 font-medium">Marketplace</th>
               </tr>
             </thead>
@@ -127,15 +128,19 @@ export default function RoadmapPage() {
               {rows.map((row) =>
                 row.kind === "section" ? (
                   <tr key={row.label}>
-                    <td colSpan={2} className="border border-slate-200 p-3 text-center font-medium text-slate-500">
+                    <td colSpan={3} className="border border-slate-200 p-3 text-center font-medium text-slate-500">
                       {row.label}
                     </td>
                   </tr>
                 ) : (
-                  <tr key={row.emerald + row.market}>
+                  <tr key={row.emerald + (row.blos ?? "") + row.market}>
                     <td className="border border-slate-200 p-3 text-[#db2777]">
                       {row.done && row.emerald ? <CheckCheck className="mr-2 inline" size={16} /> : null}
                       {row.emerald}
+                    </td>
+                    <td className="border border-slate-200 p-3 text-[#7a4018]">
+                      {row.done && row.blos ? <CheckCheck className="mr-2 inline" size={16} /> : null}
+                      {row.blos}
                     </td>
                     <td className="border border-slate-200 p-3 text-[#a85c22]">
                       {row.done && row.market ? <CheckCheck className="mr-2 inline" size={16} /> : null}

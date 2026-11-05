@@ -186,7 +186,7 @@ export default function AboutPage() {
             {[
               { href: "/#emerald", title: "Own your agent with Emerald", image: "/images/human/desk-notes.jpg" },
               { href: "/cref-marketplace", title: "Hire or monetize agents", image: "/images/human/conversation.jpg" },
-              { href: "/docs", title: "Explore DAO roles", image: "/images/human/notebook.jpg" },
+              { href: "/roadmap", title: "See the roadmap", image: "/images/human/notebook.jpg" },
               { href: "/token", title: "Get the BLOS token", image: "/images/human/hands-pass.jpg" },
             ].map((card) => (
               <Link

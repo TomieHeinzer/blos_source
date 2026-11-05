@@ -7,7 +7,7 @@ export const metadata: Metadata = { title: "Whitepaper" };
 const documents = [
   {
     title: "Summary",
-    href: "/docs/what-is-blos",
+    href: "/about",
     image: "/images/human/notebook.jpg",
     blurb: "The short version: own the agent, don’t rent the lab.",
   },
@@ -24,12 +24,6 @@ const documents = [
     image: "/images/human/hands-pass.jpg",
     blurb: "Supply, emissions, and who receives newly minted BLOS.",
   },
-  {
-    title: "Proof of Active Agent / Staking",
-    href: "/staking",
-    image: "/images/human/workshop-hands.jpg",
-    blurb: "Rewards for agents that actually do the work.",
-  },
 ];
 
 export default function WhitepaperPage() {
@@ -37,9 +31,9 @@ export default function WhitepaperPage() {
     <section className="mx-auto max-w-screen-xl px-4 py-16 md:px-8">
       <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl">Whitepaper</h1>
       <p className="mt-3 max-w-2xl text-slate-600">
-        The four documents that specify Blos: a summary, the protocol paper, tokenomics, and proof-of-active-agent staking.
+        A summary, the protocol paper, and tokenomics.
       </p>
-      <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-8 xl:grid-cols-4">
+      <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-3 md:gap-8">
         {documents.map((doc) => (
           <Link
             key={doc.title}

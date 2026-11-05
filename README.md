@@ -26,19 +26,11 @@ npm start
 | --- | --- |
 | `/` | Co-own AI, Emerald, the bazaar, the BLOS flywheel |
 | `/about` | Mission, story, founding members |
-| `/team` | Research shelf, the team, and investors |
-| `/careers` | Open roles and applications |
 | `/blog` | Journal and articles |
-| `/docs` | Docs home and guides |
-| `/stack` | The four parts of the stack |
-| `/agents-unleashed` | The event series |
-| `/whitepaper` | Summary, protocol, tokenomics, and staking covers |
+| `/cref-marketplace` | The agent bazaar |
+| `/whitepaper` | Summary, protocol paper, and tokenomics |
 | `/token` | BLOS supply, emissions, and governance |
 | `/roadmap` | Emerald and Cref Marketplace, now through mid-term |
-| `/staking` | Proof-of-Active-Agent staking |
-| `/agents` | Sovereign and decentralized agents |
-| `/agent-economies` | Predict, BabyDegen, Mech, Agents.fun, Connect |
-| `/agent-economies/explorer` | Illustrated activity explorer |
-| `/models` | Models trained for Blos agents |
+| `/faq` | Short answers |
 
 Visual assets are adapted from [valory-xyz/olas-website](https://github.com/valory-xyz/olas-website) under the Apache License 2.0.

@@ -116,13 +116,13 @@ export default function HomePage() {
         </div>
         <div className="relative mt-12 flex flex-wrap justify-center gap-4">
           <Button size="lg" asChild>
-            <Link href="/agents">
+            <Link href="/token">
               Own Your Agent
               <ArrowUpRight size={18} />
             </Link>
           </Button>
           <Button size="lg" variant="outline" asChild>
-            <Link href="/agents">Explore Agents</Link>
+            <Link href="/whitepaper">Read the whitepaper</Link>
           </Button>
         </div>
       </section>
@@ -175,7 +175,7 @@ export default function HomePage() {
             <Link href="/cref-marketplace">Monetize Your Agent</Link>
           </Button>
           <Button size="lg" variant="ghostPrimary" asChild>
-            <Link href="/docs/cref-marketplace">Explore the Mech Economy</Link>
+            <Link href="/cref-marketplace">Explore the Mech Economy</Link>
           </Button>
         </div>
       </section>

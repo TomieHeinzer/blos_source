@@ -14,39 +14,18 @@ const columns = [
     ],
   },
   {
-    title: "DAO",
-    links: [
-      { title: "Contribute", href: "/docs/contribute" },
-      { title: "Launch", href: "/docs/launch" },
-      { title: "Build", href: "/docs/build" },
-      { title: "Operate", href: "/docs/operate" },
-      { title: "Bond", href: "/docs/bond" },
-      { title: "Govern", href: "/docs/govern" },
-    ],
-  },
-  {
     title: "Resources",
     links: [
       { title: "Blog", href: "/blog" },
-      { title: "Docs", href: "/docs" },
       { title: "Whitepaper", href: "/whitepaper" },
-      { title: "Models", href: "/models" },
-      { title: "Agents", href: "/agents" },
-      { title: "Agent economies", href: "/agent-economies" },
-      { title: "Explorer", href: "/agent-economies/explorer" },
       { title: "Roadmap", href: "/roadmap" },
-      { title: "Staking", href: "/staking" },
-      { title: "Stack", href: "/stack" },
       { title: "FAQ", href: "/faq" },
-      { title: "Agents Unleashed", href: "/agents-unleashed" },
     ],
   },
   {
     title: "More",
     links: [
       { title: "About", href: "/about" },
-      { title: "Team", href: "/team#team" },
-      { title: "Careers", href: "/careers" },
       { title: "Tokenomics", href: "/token" },
       { title: "Disclaimer", href: "/disclaimer" },
     ],
@@ -85,7 +64,7 @@ export function SiteFooter() {
             ))}
           </div>
         </div>
-        <div className="grid flex-1 grid-cols-2 gap-8 md:grid-cols-4">
+        <div className="grid flex-1 grid-cols-2 gap-8 md:grid-cols-3">
           {columns.map((column) => (
             <div key={column.title}>
               <p className="font-semibold text-slate-900">{column.title}</p>

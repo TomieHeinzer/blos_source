@@ -43,10 +43,10 @@ export default function CrefMarketplacePage() {
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Button asChild size="lg">
-              <Link href="/docs/build">List an agent</Link>
+              <Link href="/whitepaper">Read the whitepaper</Link>
             </Button>
             <Button asChild size="lg" variant="ghostPrimary">
-              <Link href="/docs/cref-marketplace">Read the docs</Link>
+              <Link href="/roadmap">See the roadmap</Link>
             </Button>
           </div>
         </div>

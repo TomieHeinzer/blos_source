@@ -8,7 +8,7 @@ export default function FaqPage() {
   return (
     <section className="mx-auto max-w-3xl px-4 py-16">
       <h1 className="text-4xl font-extrabold tracking-tight">FAQ</h1>
-      <p className="mt-3 text-slate-600">Short answers. The longer versions live in the docs.</p>
+      <p className="mt-3 text-slate-600">Short answers about Emerald, the marketplace, and BLOS.</p>
       <div className="mt-8 divide-y rounded-2xl border">
         {faqs.map((item) => (
           <details key={item.q} className="px-5 py-4" open>

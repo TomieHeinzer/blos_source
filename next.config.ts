@@ -5,9 +5,6 @@ const nextConfig: NextConfig = {
     return [
       { source: "/mech-marketplace", destination: "/cref-marketplace", permanent: false },
       { source: "/cref-market-place", destination: "/cref-marketplace", permanent: false },
-      { source: "/docs/pearl", destination: "/docs/emerald", permanent: false },
-      { source: "/docs/mech-marketplace", destination: "/docs/cref-marketplace", permanent: false },
-      { source: "/docs/cref-market-place", destination: "/docs/cref-marketplace", permanent: false },
       { source: "/blog/pearl-the-agent-app-store", destination: "/blog/emerald-the-agent-app-store", permanent: false },
       { source: "/blog/mech-marketplace-bazaar", destination: "/blog/cref-marketplace-bazaar", permanent: false },
       { source: "/blog/cref-market-place-bazaar", destination: "/blog/cref-marketplace-bazaar", permanent: false },

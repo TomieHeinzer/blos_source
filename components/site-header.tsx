@@ -27,18 +27,6 @@ export function SiteHeader() {
             About
           </Link>
           <Link
-            href="/team#team"
-            className="rounded-md px-3 py-2 text-sm font-medium text-[#2a221c] hover:bg-[#f3e6d2]"
-          >
-            Team
-          </Link>
-          <Link
-            href="/careers"
-            className="rounded-md px-3 py-2 text-sm font-medium text-[#2a221c] hover:bg-[#f3e6d2]"
-          >
-            Careers
-          </Link>
-          <Link
             href="/blog"
             className="rounded-md px-3 py-2 text-sm font-medium text-[#2a221c] hover:bg-[#f3e6d2]"
           >
@@ -95,12 +83,6 @@ export function SiteHeader() {
           <div className="flex flex-col gap-1">
             <Link href="/about" className="rounded-md px-2 py-2" onClick={() => setOpen(false)}>
               About
-            </Link>
-            <Link href="/team#team" className="rounded-md px-2 py-2" onClick={() => setOpen(false)}>
-              Team
-            </Link>
-            <Link href="/careers" className="rounded-md px-2 py-2" onClick={() => setOpen(false)}>
-              Careers
             </Link>
             <Link href="/blog" className="rounded-md px-2 py-2" onClick={() => setOpen(false)}>
               Blog
